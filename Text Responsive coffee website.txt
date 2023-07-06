@@ -1,0 +1,115 @@
+========== HEADER ==========
+.nav__logo
+Hearthetto 
+
+.nav__link
+Home
+
+About
+
+Steps
+
+Testimonial
+
+
+========== HOME ==========
+.home__subtitle
+EXCEPTIONAL QUALITY
+
+.home__title
+It's time for a <br>
+good play
+
+.home__description
+Every Hearthstone card reflects our commitment to Brazilian players,
+who bring out the best in them by choosing to play with us.
+
+.button
+Get Started
+
+
+========== PRODUCTS ==========
+.products__button
+Scroll Down
+
+.products__description
+We strive to form deep partnerships with players around the world
+to create perspectives together and form healthy working 
+relationships built on trust and respect.
+
+.products__name .products__price
+Classic Package
+$17.90
+
+Épic Package
+$24.90
+
+Legendary Package
+$32.90
+
+
+========== ABOUT ==========
+.section__title
+Our History
+
+.about__description
+We make and produce the best cards in Brazil, accompanying players since 2014, 
+with professionals who have the skills to assemble, play and select cards with quality, 
+thus providing an exquisite card event to enjoy together as one. 
+Don't leave your opponent behind, challenge him first.
+
+
+========== STEPS ==========
+.section__title
+Steps of manufacturing our products
+
+.steps__circle .steps__description
+01
+First comes the initial idea, 
+which occurs monthly when developers prepare 
+a new mechanic to work on.
+
+02
+Then, we start the testing phases, 
+we always try to start as soon as possible to have an idea of 
+​​what will go to the final phase and what will be discarded.
+
+03
+Finally, we hand it over to players 
+so they can feel the new powers in their hands. 
+I hope you always feel satisfied.
+
+
+========== TESTIMONIAL ==========
+.section__title
+Hearthstone is the ultimate card game, 
+you never know how the game will end.
+
+.testimonial__name
+Jhon Doe
+
+
+========== FOOTER ==========
+.footer__logo
+Hearthetto 
+
+.footer__title
+Sign up for our newsletter
+
+.footer__input - placeholder
+Enter e-mail address
+
+.footer__button
+Subscribe
+
+.footer__description
+We care about your data. Read our 
+Privacy Policy
+
+.footer__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+.footer__copy
+&#169; Copyright fty57. All rights reserved
