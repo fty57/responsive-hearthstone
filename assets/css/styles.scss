@@ -217,8 +217,88 @@ img {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home {
+  background: linear-gradient(
+    180deg,
+    var(--first-color) 0%,
+    var(--first-color-alt) 100%
+  );
+
+  &__container {
+    padding-top: 2rem;
+    row-gap: 2rem;
+  }
+
+  &__data {
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-size: var(--normal-font-size);
+    color: var(--first-color-second);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.75rem;
+  }
+
+  &__title,
+  &__description {
+    color: var(--white-color);
+  }
+
+  &__title {
+    text-align: initial;
+    font-size: var(--biggest-font-size);
+    font-family: var(--second-font);
+    font-weight: var(--font-regular);
+    line-height: 120%;
+    margin: 0 auto 2rem;
+    position: relative;
+    width: max-content;
+  }
+
+  &__title img {
+    width: 80px;
+    position: absolute;
+    right: -1rem;
+    bottom: -0.5rem;
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    width: 320px;
+    justify-self: center;
+  }
+}
 
 /*=============== BUTTON ===============*/
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: var(--input-color);
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  box-shadow: 0 8px 32px hsla(39, 62%, 65%, 0.25);
+  transition: box-shadow 0.3s;
+
+  i {
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+  }
+
+  &:hover {
+    box-shadow: 0 8px 48px hsla(39, 62%, 65%, 0.3);
+  }
+
+  &:hover i {
+    transform: translateX(0.25rem);
+  }
+}
 
 /*=============== PRODUCTS ===============*/
 
