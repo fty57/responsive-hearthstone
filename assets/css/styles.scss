@@ -220,8 +220,11 @@ img {
 .scroll-header .header__border {
   opacity: 0;
 }
-/* Active link */
 
+/* Active link */
+.active-link {
+  color: var(--text-color);
+}
 /*=============== HOME ===============*/
 .home {
   background: linear-gradient(

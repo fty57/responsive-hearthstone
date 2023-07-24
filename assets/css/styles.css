@@ -195,6 +195,10 @@ img {
 }
 
 /* Active link */
+.active-link {
+  color: var(--text-color);
+}
+
 /*=============== HOME ===============*/
 .home {
   background: linear-gradient(180deg, var(--first-color) 0%, var(--first-color-alt) 100%);
