@@ -160,6 +160,37 @@ img {
       width: 28px;
     }
   }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: var(--white-color);
+    font-family: var(--second-font);
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.25rem;
+    transition: color 0.3s;
+
+    i {
+      background: linear-gradient(
+        180deg,
+        hsl(39, 62%, 75%) 0%,
+        hsl(39, 62%, 45%) 100%
+      );
+      color: transparent;
+      -webkit-background-clip: text;
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      color: var(--first-color-second);
+    }
+  }
 }
 
 /* Navigation for mobile devices */
@@ -244,7 +275,7 @@ img {
 
   &__subtitle {
     font-size: var(--normal-font-size);
-    color: var(--first-color-second);
+    color: var(--first-color-alt);
     font-weight: var(--font-medium);
     margin-bottom: 0.75rem;
   }
