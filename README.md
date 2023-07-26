@@ -20,6 +20,7 @@ Alguns ajustes podem vir, porém creio que esse projeto foi terminado. O qual se
 - [Responsive Coffee Website Design Using HTML CSS & JavaScript](https://www.youtube.com/watch?v=JFQAUjpyUpk)
 - [Vhv.rs - Images](https://www.vhv.rs/somore/hearthstone/)
 - [Favicon](https://favicon.io/emoji-favicons/robot)
+- [Netlify](https://www.netlify.com/)
 - [ChatGPT](https://chat.openai.com/)
 
 # Autor
